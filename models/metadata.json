@@ -1,0 +1,22 @@
+{
+  "version": "20260624-160845",
+  "feature_names": [
+    "blood_glucose",
+    "physical_activity",
+    "diet",
+    "medication_adherence",
+    "stress_level",
+    "sleep_hours",
+    "hydration_level",
+    "bmi"
+  ],
+  "metrics": {
+    "accuracy": 0.908,
+    "f1": 0.8543
+  },
+  "risk_label_map": {
+    "0": "Low Risk",
+    "1": "Moderate Risk",
+    "2": "High Risk"
+  }
+}
